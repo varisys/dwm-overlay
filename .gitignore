@@ -1,0 +1,62 @@
+# This repository is documentation-only. Keep implementation and build output private.
+
+# Source and project files
+src/
+include/
+vendor/
+*.c
+*.cc
+*.cpp
+*.cxx
+*.h
+*.hpp
+*.sln
+*.vcxproj*
+
+# Binaries and symbols
+*.dll
+*.exe
+*.sys
+*.lib
+*.exp
+*.pdb
+*.obj
+*.ilk
+*.dmp
+*.zip
+*.7z
+
+# Build and IDE output
+.vs/
+.vscode/
+x64/
+x86/
+Debug/
+Release/
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+secrets.*
+credentials.*
+
+# Logs and raw captures
+*.log
+*.etl
+*.trace
+captures/
+recordings/
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+
